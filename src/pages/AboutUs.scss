@@ -1,0 +1,70 @@
+/* General para toda la página */
+.about-us {
+    .container {
+      margin-top: 180px;
+      padding: 0 50px;
+    }
+
+    .row-align-items-center {
+        display: flex;
+        justify-content: space-between;
+      }
+  
+    /* Historia y Misión */
+    .history-mission {
+      max-width: 100%;
+      margin-bottom: 60px;
+      display: flex;
+      align-items: center;
+  
+      .section-title {
+        max-width:100%;
+        font-size: 2rem;
+        color: #333;
+        font-weight: bold;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+  
+      .section-text {
+        font-size: 1.1rem;
+        color: #555;
+        line-height: 1.6;
+      }
+  
+      .about-image {
+        width: 600px;
+        height: 350px;
+        margin-right: 100px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+    }
+  
+    /* Valores */
+    .values {
+      background-color: #f8f8f8;
+      padding: 40px 0;
+      .value-card {
+        text-align: center;
+        margin-bottom: 30px;
+        .icon {
+          font-size: 3rem;
+          color: #019add;
+          margin-bottom: 15px;
+        }
+  
+        h3 {
+          font-size: 1.5rem;
+          color: #333;
+          margin-bottom: 10px;
+        }
+  
+        p {
+          font-size: 1rem;
+          color: #666;
+        }
+      }
+    }
+  }
+  

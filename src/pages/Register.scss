@@ -1,0 +1,110 @@
+.register-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f8f8f8;
+  padding: 20px;
+}
+
+.register-container {
+  margin-top: 120px;
+  background-color: #ffffff;
+  padding: 2rem 3rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.register-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.register-header h2 {
+  font-size: 2rem;
+  margin-right: 10px;
+}
+
+.register-icon {
+  font-size: 2rem;
+  color: #1080f2;
+}
+
+.input-group {
+  margin-bottom: 1rem;
+}
+
+.input-group label {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 1rem;
+  margin: 0.8rem 0;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  font-size: 1rem;
+  color: #333;
+}
+
+.btn-register {
+  width: 100%;
+  padding: 1rem;
+  background-color: #1080f2;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-register:hover {
+  background-color: #019add;
+}
+
+.login-link {
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+
+.login-link a {
+  color: #1080f2;
+  text-decoration: none;
+}
+
+.login-link a:hover {
+  text-decoration: underline;
+}
+
+/* Estilo Responsivo */
+@media (max-width: 480px) {
+  .register-container {
+    padding: 1.5rem 2rem;
+  }
+
+  .register-header h2 {
+    font-size: 1.5rem;
+  }
+
+  .register-icon {
+    font-size: 1.5rem;
+  }
+
+  .input-group input {
+    padding: 0.8rem;
+  }
+
+  .btn-register {
+    padding: 0.9rem;
+  }
+}

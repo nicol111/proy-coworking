@@ -1,0 +1,92 @@
+
+.reserva {
+    .container {
+      margin-top: 200px;
+    }
+  
+    .section-title {
+      font-size: 2rem;
+      color: #333;
+      font-weight: bold;
+      margin-bottom: 40px;
+    }
+  
+  
+    .reservation-form {
+      background-color: #ffffff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      
+      .form-group {
+        margin-bottom: 20px;
+      }
+  
+      label {
+        display: block;
+        font-size: 1.1rem;
+        color: #555;
+        margin-bottom: 5px;
+      }
+  
+      input, select {
+        width: 100%;
+        padding: 10px;
+        font-size: 1rem;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+  
+      button {
+        width: 100%;
+        padding: 15px;
+        background-color: #019add;
+        color: #ffffff;
+        font-size: 1.1rem;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+  
+        &:hover {
+          background-color: #1080f2;
+        }
+      }
+    }
+  
+    /* Sección de calendario */
+    .calendar-section {
+      margin-top: 50px;
+      text-align: center;
+  
+      .calendar-title {
+        font-size: 1.5rem;
+        color: #333;
+        margin-bottom: 20px;
+      }
+  
+      .calendar {
+        display: flex;
+        justify-content: center;
+      }
+  
+      .calendar-input {
+        padding: 10px;
+        font-size: 1rem;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+    }
+  
+    /* Estilo Responsivo */
+    @media (max-width: 768px) {
+      .reservation-form {
+        padding: 20px;
+      }
+  
+      .calendar-section {
+        margin-top: 30px;
+      }
+    }
+  }
+  
