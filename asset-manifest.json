@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/store/static/css/main.6fa3eabe.css",
+    "main.js": "/store/static/js/main.c7308e4e.js",
+    "static/js/453.f0696773.chunk.js": "/store/static/js/453.f0696773.chunk.js",
+    "static/media/espacioscompartidos.jpg": "/store/static/media/espacioscompartidos.928290aedd6759024548.jpg",
+    "static/media/salasdereunion.jpg": "/store/static/media/salasdereunion.433e7e6b74e8c61ec7ab.jpg",
+    "static/media/banner3.jpg": "/store/static/media/banner3.ade1bcd6df7b84c7aa53.jpg",
+    "static/media/espaciosprivados.jpg": "/store/static/media/espaciosprivados.9c9b261727f5b84464ef.jpg",
+    "static/media/banner2.jpg": "/store/static/media/banner2.7929e9e0407cfa7c4a7f.jpg",
+    "index.html": "/store/index.html",
+    "main.6fa3eabe.css.map": "/store/static/css/main.6fa3eabe.css.map",
+    "main.c7308e4e.js.map": "/store/static/js/main.c7308e4e.js.map",
+    "453.f0696773.chunk.js.map": "/store/static/js/453.f0696773.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6fa3eabe.css",
+    "static/js/main.c7308e4e.js"
+  ]
+}
